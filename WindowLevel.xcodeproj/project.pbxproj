@@ -11,16 +11,18 @@
 		6974397D1FC2B6C000860790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6974397C1FC2B6C000860790 /* ViewController.swift */; };
 		6974397F1FC2B6C000860790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6974397E1FC2B6C000860790 /* Assets.xcassets */; };
 		697439821FC2B6C000860790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697439801FC2B6C000860790 /* Main.storyboard */; };
+		6974398B1FC2B6D600860790 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6974398A1FC2B6D500860790 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		697439771FC2B6C000860790 /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		697439771FC2B6C000860790 /* WindowLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6974397A1FC2B6C000860790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6974397C1FC2B6C000860790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6974397E1FC2B6C000860790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		697439811FC2B6C000860790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		697439831FC2B6C000860790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697439841FC2B6C000860790 /* TEST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TEST.entitlements; sourceTree = "<group>"; };
+		6974398A1FC2B6D500860790 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,7 @@
 		697439781FC2B6C000860790 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				697439771FC2B6C000860790 /* TEST.app */,
+				697439771FC2B6C000860790 /* WindowLevel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +57,7 @@
 			children = (
 				6974397A1FC2B6C000860790 /* AppDelegate.swift */,
 				6974397C1FC2B6C000860790 /* ViewController.swift */,
+				6974398A1FC2B6D500860790 /* WindowController.swift */,
 				6974397E1FC2B6C000860790 /* Assets.xcassets */,
 				697439801FC2B6C000860790 /* Main.storyboard */,
 				697439831FC2B6C000860790 /* Info.plist */,
@@ -66,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		697439761FC2B6C000860790 /* TEST */ = {
+		697439761FC2B6C000860790 /* WindowLevel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 697439871FC2B6C000860790 /* Build configuration list for PBXNativeTarget "TEST" */;
+			buildConfigurationList = 697439871FC2B6C000860790 /* Build configuration list for PBXNativeTarget "WindowLevel" */;
 			buildPhases = (
 				697439731FC2B6C000860790 /* Sources */,
 				697439741FC2B6C000860790 /* Frameworks */,
@@ -78,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = TEST;
+			name = WindowLevel;
 			productName = TEST;
-			productReference = 697439771FC2B6C000860790 /* TEST.app */;
+			productReference = 697439771FC2B6C000860790 /* WindowLevel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 697439721FC2B6C000860790 /* Build configuration list for PBXProject "TEST" */;
+			buildConfigurationList = 697439721FC2B6C000860790 /* Build configuration list for PBXProject "WindowLevel" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				697439761FC2B6C000860790 /* TEST */,
+				697439761FC2B6C000860790 /* WindowLevel */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6974397D1FC2B6C000860790 /* ViewController.swift in Sources */,
+				6974398B1FC2B6D600860790 /* WindowController.swift in Sources */,
 				6974397B1FC2B6C000860790 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		697439721FC2B6C000860790 /* Build configuration list for PBXProject "TEST" */ = {
+		697439721FC2B6C000860790 /* Build configuration list for PBXProject "WindowLevel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				697439851FC2B6C000860790 /* Debug */,
@@ -303,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		697439871FC2B6C000860790 /* Build configuration list for PBXNativeTarget "TEST" */ = {
+		697439871FC2B6C000860790 /* Build configuration list for PBXNativeTarget "WindowLevel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				697439881FC2B6C000860790 /* Debug */,
